@@ -1,0 +1,28 @@
+1 - equals() Method:
+
+equals() is used to compare two strings for exact content equality.
+It returns a boolean value (true if the strings are equal, false otherwise).
+This method performs a case-sensitive comparison, meaning it considers the case (uppercase and lowercase letters) of the characters. For example, "Hello" and "hello" are not considered equal when using equals().
+Example - String str1 = "Hello";
+String str2 = "hello";
+boolean result = str1.equals(str2); // Returns false
+
+2 - equalsIgnoreCase() Method:
+
+equalsIgnoreCase() is also used to compare two strings for content equality, but it ignores the case of the characters.
+It returns a boolean value (true if the strings are equal, false otherwise) while ignoring differences in letter case.
+Example - String str1 = "Hello";
+String str2 = "hello";
+boolean result = str1.equalsIgnoreCase(str2); // Returns true
+
+3 - compareTo() Method:
+
+compareTo() is used for comparing two strings lexicographically (i.e., based on their dictionary order).
+It returns an integer value that represents the comparison result:
+If the strings are equal, it returns 0.
+If the invoking string is lexicographically less than the argument string, it returns a negative value.
+If the invoking string is lexicographically greater than the argument string, it returns a positive value.
+This method is case-sensitive and considers the case of characters.
+Example - String str1 = "apple";
+String str2 = "banana";
+int result = str1.compareTo(str2); // Returns a negative value (-1 in this case)

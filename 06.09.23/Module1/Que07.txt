@@ -1,0 +1,5 @@
+Discuss the differences between the print and println methods when used for console output.
+
+
+print: The print method displays the provided text without a newline character at the end. This means that subsequent output will appear on the same line as the text you printed.
+println: The println method also displays the provided text but adds a newline character at the end. This means that the cursor moves to the next line after printing, so any subsequent output will appear on a new line.

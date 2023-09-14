@@ -1,0 +1,7 @@
+What are the key features and components of the Eclipse IDE?
+
+1 - Workspace: The workspace is the top-level container for all your projects and resources. It manages your projects, source code, and other files.
+2 - Project Explorer: This view allows you to navigate and manage your projects and their associated resources.
+3 - Editor: Eclipse provides a powerful code editor with features like syntax highlighting, code completion, and error checking. It supports various programming languages through language-specific plugins.
+4 - Debugger: Eclipse offers a built-in debugger for various programming languages. It allows you to set breakpoints, inspect variables, and step through code for debugging purposes.
+5 - Code Templates and Snippets: Eclipse provides code templates and snippets to help you write code faster. These templates can be customized to match your coding style.

@@ -1,0 +1,8 @@
+How do you download and install the latest version of Java on your system?
+
+1 - Visit the Oracle Website (for Oracle Java).
+2 - Download the Java Distribution: On the Oracle website I choose, find the download link for the latest version of Java SE (Standard Edition). 
+3 - Accept License Agreement (Oracle Java): Then I have to accept the Oracle Technology Network License Agreement before you can download the JDK.
+4 - Download and Save the Installer: Then I Click on the download link, and your browser Start downloading the installer for Java and Save the installer file to your computer.
+5 - Install Java: Then I Run the downloaded installer file (usually ending with .exe).
+6 - Verify the Installation: To verify that Java has been installed correctly, on a terminal i run a command (java -version).

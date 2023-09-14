@@ -1,0 +1,32 @@
+Call by Value:
+When you pass a primitive data type as an argument to a method, a copy of the value is passed to the method, and any changes made to the parameter within the method do not affect the original value.
+
+public class CallByValueExample {
+    public static void modifyValue(int num) {
+        num = num * 2;
+    }
+
+    public static void main(String[] args) {
+        int x = 10;
+        System.out.println("Before method call: " + x);
+        modifyValue(x);
+        System.out.println("After method call: " + x);
+    }
+}
+
+Call by Reference:
+When you pass an object as an argument to a method, a copy of the reference to the object is passed to the method. This means that if you modify the object's properties or state within the method, those changes will affect the original object outside the method. However, you cannot change the reference itself.
+
+public class CallByReferenceExample {
+    public static void modifyCarPrice(Car car, double newPrice) {
+        car.setPrice(newPrice);
+    }
+
+    public static void main(String[] args) {
+        Car myCar = new Car("Toyota", "Camry", 2020, 25000.0);
+        System.out.println("Before method call: Price = $" + myCar.getPrice());
+
+        modifyCarPrice(myCar, 22000.0);
+        System.out.println("After method call: Price = $" + myCar.getPrice());
+    }
+}

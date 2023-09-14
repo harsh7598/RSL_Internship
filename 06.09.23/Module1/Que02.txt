@@ -1,0 +1,11 @@
+Explain the process of setting up the Java environment variables.
+
+Step 1: Download the Java8 JDK
+Step 2: Now you will see a download prompt just accept the term and conditions and click on the download button
+Step 3: If you have an oracle account then sign in or if don’t then create one and sign in
+Step 4:  Then your download will start automatically after signing in if don’t then click on the previous link again
+Step 5: After downloading, run the jdk-8u Application(.exe file) and follow the instructions to install Java on your machine. Once you install Java on your device, you have to set up the environment variable.
+Step 6: Go to Control Panel -> System and Security -> System. Under the Advanced System Setting option click on Environment Variables 
+Step 7: Now, you have to alter the “Path” variable under System variables so that it also contains the path to the Java environment. Select the “Path” variable and click on the Edit button 
+Step 8: You will see a list of different paths, click on the New button, and then add the path where java is installed. By default, java is installed in “C:\Program Files\Java\jdk\bin” folder OR “C:\Program Files(x86)\Java\jdk\bin”.
+Step 9: Click on OK, Save the settings, and you are done !!

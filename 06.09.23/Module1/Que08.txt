@@ -1,0 +1,23 @@
+Define a variable in Java and demonstrate different data types you can use.
+
+Variables - In Java, variables are used to store and manipulate data. Each variable has a data type that defines the type of data it can hold. 
+
+Data Types - 
+1 - Integer Data Types:
+int: Used for 32-bit signed integers.
+byte: Used for 8-bit signed integers.
+short: Used for 16-bit signed integers.
+long: Used for 64-bit signed integers.
+
+2 - Floating-Point Data Types:
+float: Used for 32-bit floating-point numbers.
+double: Used for 64-bit floating-point numbers.
+
+3 - Character Data Type:
+char: Used for 16-bit Unicode characters.
+
+4 - Boolean Data Type:
+boolean: Used for true or false values.
+
+5 - String Data Type:
+String: Used for sequences of characters.

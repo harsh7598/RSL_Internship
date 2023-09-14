@@ -1,0 +1,13 @@
+Explain the concept of Java operators with suitable examples.
+
+In Java, operators are special symbols or keywords that perform operations on variables and values. Java operators allow you to manipulate data in various ways, such as performing arithmetic calculations, comparing values, and assigning values. 
+
+Examples - 
+1 - Arithmetic Operators: int sum = 5 + 3; // sum is now 8
+2 - Comparison Operators: boolean isEqual = (5 == 5); // isEqual is true
+3 - Logical Operators: boolean result = (true && false); // result is false
+4 - Assignment Operators: int y = 5;
+                          y += 3; // y is now 8
+5 - Increment and Decrement Operators: int count = 5;
+                                       count++; // count is now 6
+

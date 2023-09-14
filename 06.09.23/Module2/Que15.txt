@@ -1,0 +1,61 @@
+Access modifiers in Java are keywords that determine the visibility and accessibility of classes, fields, methods, and constructors within and outside of classes and packages. There are four main access modifiers in Java:
+
+1 - Private (private):
+
+Members (fields, methods, inner classes) declared as private are accessible only within the same class where they are defined. They are not visible to any other class, even subclasses.
+
+2 - Default (No Modifier):
+
+Members with no explicit access modifier (also known as "package-private") are accessible within the same package but not outside of it. They are not visible in other packages, even if the classes are subclasses.
+
+3 - Protected (protected):
+
+Members declared as protected are accessible within the same package, and they can also be accessed by subclasses, even if the subclass is in a different package.
+
+4 - Public (public):
+
+Members declared as public are accessible from any class and package. They have the highest level of visibility and can be accessed globally.
+
+Example - 
+// Private Example
+class PrivateExample {
+    private int privateField;
+
+    private void privateMethod() {
+        // ...
+    }
+}
+
+// Default Example
+class DefaultExample {
+    int defaultField;  // No access modifier
+
+    void defaultMethod() {
+        // ...
+    }
+}
+
+// Protected Example
+class ProtectedExample {
+    protected int protectedField;
+
+    protected void protectedMethod() {
+        // ...
+    }
+}
+
+class Subclass extends ProtectedExample {
+    void accessProtected() {
+        protectedField = 10;      // Access protected field
+        protectedMethod();        // Access protected method
+    }
+}
+
+// Public Example
+public class PublicExample {
+    public int publicField;
+
+    public void publicMethod() {
+        // ...
+    }
+}

@@ -1,0 +1,6 @@
+How do you compile and run a Java program using the command line?
+
+1 - Write Your Java Code: First, create a Java source file (with a .java extension) that contains your Java code.
+2 - Open a Terminal or Command Prompt: You'll need to use a terminal or command prompt to work with the command line.
+3 - Compile the Java Program: To compile the Java source code, use the javac (Java Compiler) command followed by the name of your Java file: (javac HelloWorld.java).
+4 - Run the Compiled Java Program: To run the compiled Java program, use the java command followed by the name of the class that contains the main method (without the .class extension):(java HelloWorld).

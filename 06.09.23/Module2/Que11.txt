@@ -1,0 +1,33 @@
+In Java, the super keyword is used to call a method or access a member (variable or method) of the superclass (parent class) from a subclass (child class). It is often used in the context of method overriding to invoke the overridden method of the superclass. 
+
+// Superclass "Animal"
+class Animal {
+    void makeSound() {
+        System.out.println("The animal makes a generic sound.");
+    }
+}
+
+// Subclass "Dog" that extends "Animal"
+class Dog extends Animal {
+    @Override
+    void makeSound() {
+        super.makeSound(); // Calls the makeSound method of the superclass "Animal"
+        System.out.println("The dog barks.");
+    }
+
+    void wagTail() {
+        System.out.println("The dog wags its tail.");
+    }
+}
+
+public class AnimalDemo {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+
+        System.out.println("Calling makeSound on dog:");
+        dog.makeSound(); // Calls the overridden makeSound method in "Dog" class
+
+        System.out.println("\nCalling wagTail on dog:");
+        dog.wagTail(); // Calls the wagTail method in "Dog" class
+    }
+}
